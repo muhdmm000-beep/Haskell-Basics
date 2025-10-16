@@ -1,4 +1,14 @@
+-doubdouble: Multiplies a number by 2.
 
+double :: Int -> Int 
+double x = x * 2
+
+main :: IO ()
+main =  do
+  print $ double 3
+  print $ double 4
+  -- output 6
+  -- output 8
 
 --doubleThenIncrement: Uses function composition to apply double first and then increment.
 
