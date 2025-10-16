@@ -15,3 +15,5 @@ main :: IO ()
 main = do 
  print $ doubleThenIncrement 3
  print $ doubleThenIncrement 5
+  --Output 7
+        -- 11
