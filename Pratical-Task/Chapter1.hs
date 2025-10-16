@@ -10,6 +10,19 @@ main =  do
   -- output 6
   -- output 8
 
+-- increment: Increases a number by 1.
+
+increment :: Int -> Int 
+increment x = x + 1
+
+main :: IO ()
+main =  do
+  print $ increment 3
+  print $ increment 7
+  -- output 4
+  -- output 8
+
+
 --doubleThenIncrement: Uses function composition to apply double first and then increment.
 
 double :: Int -> Int
