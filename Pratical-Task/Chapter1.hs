@@ -1,6 +1,6 @@
 
 
-
+--doubleThenIncrement: Uses function composition to apply double first and then increment.
 
 double :: Int -> Int
 double x = x * 2 
