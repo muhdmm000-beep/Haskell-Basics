@@ -1,3 +1,7 @@
+HC1T1 - Task 1: Function Composition
+
+
+
 -doubdouble: Multiplies a number by 2.
 
 double :: Int -> Int 
